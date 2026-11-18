@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="winterBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="fireGlow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="60%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#winterBg)" />
+  <!-- Mountains -->
+  <polygon points="120,450 320,180 520,450" fill="#4338ca" fill-opacity="0.4" />
+  <polygon points="400,450 580,220 760,450" fill="#3730a3" fill-opacity="0.5" />
+  <polygon points="260,260 320,180 380,260" fill="#ffffff" fill-opacity="0.8" />
+  <polygon points="530,285 580,220 630,285" fill="#ffffff" fill-opacity="0.8" />
+  <!-- Hearth / Warmth symbol -->
+  <g transform="translate(360, 260) scale(1.4)">
+    <path d="M40 80 C20 80 10 65 10 50 C10 30 35 15 40 5 C45 15 70 30 70 50 C70 65 60 80 40 80 Z" fill="url(#fireGlow)" />
+  </g>
+  <text x="400" y="380" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">EMERGENCY WINTER RELIEF</text>
+  <text x="400" y="415" font-family="'Inter', sans-serif" font-size="16" font-weight="500" fill="#fed7aa" text-anchor="middle">Thermal Blankets • Sub-zero Bivvies • High-Altitude Camps</text>
+</svg>

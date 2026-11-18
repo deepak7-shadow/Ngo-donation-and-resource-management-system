@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="waterBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#waterBg)" />
+  <circle cx="650" cy="120" r="140" fill="url(#sunGlow)" />
+  <!-- Wave Layers -->
+  <path d="M0,380 C180,320 320,440 500,360 C640,300 720,380 800,340 L800,500 L0,500 Z" fill="#ffffff" fill-opacity="0.12" />
+  <path d="M0,420 C220,360 380,460 560,400 C680,360 740,420 800,390 L800,500 L0,500 Z" fill="#ffffff" fill-opacity="0.18" />
+  <!-- Water Droplet Icon Artwork -->
+  <g transform="translate(350, 140) scale(1.6)">
+    <path d="M50 15 C30 45 10 70 10 95 A40 40 0 0 0 90 95 C90 70 70 45 50 15 Z" fill="#ffffff" fill-opacity="0.9" />
+    <circle cx="40" cy="85" r="10" fill="#38bdf8" />
+  </g>
+  <text x="400" y="380" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">CLEAN WATER INITIATIVE</text>
+  <text x="400" y="415" font-family="'Inter', sans-serif" font-size="16" font-weight="500" fill="#dcfce7" text-anchor="middle">Solar Filtration • 35 Borewells • Arid Communities</text>
+</svg>
